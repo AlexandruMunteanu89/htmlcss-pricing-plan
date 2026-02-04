@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btns{
+    display: flex;
+    justify-content: flex-end;
+}
+ul{
+    list-style-type: none;
+}
+.plan-content{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
