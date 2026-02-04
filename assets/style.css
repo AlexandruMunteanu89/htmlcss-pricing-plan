@@ -9,9 +9,18 @@
 }
 ul{
     list-style-type: none;
+    text-align: left;
 }
 .plan-content{
     display: flex;
     text-align: center;
     flex-direction: column;
+}
+.professional{
+    background-color: blue;
+    color: white;
+}
+.card{
+    border: solid gray;
+    border-radius: 20px;
 }
