@@ -11,16 +11,64 @@ ul{
     list-style-type: none;
     text-align: left;
 }
+.header-btn{
+    padding: 0.2rem;
+}
 .plan-content{
     display: flex;
     text-align: center;
     flex-direction: column;
 }
 .professional{
-    background-color: blue;
+    background-color: blueviolet;
     color: white;
 }
 .card{
+    flex-basis: calc(100% / 3 - (15px * 2) / 3);
+    min-width: 290px;
+    flex-grow: 1;
     border: solid gray;
     border-radius: 20px;
+    min-height: 400px;
+    padding: 2rem;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.btn-style{
+    padding: 1rem;
+    border-radius: 15px;
+}
+.btn-blue{
+    color: white;
+    background-color: blueviolet;
+}
+.btn-w{
+    color: blueviolet;
+}
+li{
+    padding: 0.5rem 0;
+}
+.sale{
+    background-color: rgb(172, 170, 170);
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: black;
+}
+p{
+    margin: 1rem 0;
+}
+.coin{
+    font-weight: 800;
+    font-size: large;
+}
+.price{
+    font-weight: 800;
+    font-size: xx-large;
 }
